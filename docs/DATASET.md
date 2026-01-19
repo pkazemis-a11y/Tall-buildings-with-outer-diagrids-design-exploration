@@ -1,12 +1,22 @@
 # Dataset Documentation
 
 ## Overview
-This dataset contains parametric information for 1,000 tall building designs with outer diagrid structures, each analyzed under 7 different ground motions from the NGA-West2 database.
+This dataset contains parametric information for 1,000 tall building designs with outer diagrid structures, each analyzed under 7 different ground motions from the NGA-West2 database. The buildings feature diverse architectural forms including curvilinear profiles, tapered geometries, and twisting configurations, with plan geometries ranging from 3- to 12-sided polygons.
 
 **Total Records**: 7,000 rows (1,000 models × 7 ground motions)
 
+**Analysis Type**: Transient time-domain analysis with linear elastic behavior
+
 ## File Location
 - `data/database.csv`
+
+## Key Features
+
+The database enables:
+- **AI/ML Applications**: Classification, regression, neural network training, GANs
+- **Early-stage Design Support**: Quantitative structural feedback for architects
+- **Performance-based Design**: Evaluation under multiple seismic scenarios
+- **Cost-benefit Analysis**: Integration of structural, economic, and environmental variables
 
 ## Design Variables (X1-X10)
 
@@ -98,6 +108,45 @@ This dataset contains parametric information for 1,000 tall building designs wit
 | Cost of floor | Floor system cost | $ |
 | Cost of Land | Land acquisition cost | $ |
 | Total costs | Sum of all costs | $ |
+| Cost to TGA | Total cost per gross area | $/m² |
+| Sellable price | Potential market value | $ |
+
+## Data Applications
+
+### Machine Learning Tasks
+1. **Regression**: Predict structural responses from geometric parameters
+2. **Classification**: Categorize buildings by performance levels
+3. **Clustering**: Identify design patterns and archetypes
+4. **Dimensionality Reduction**: Explore design space structure
+
+### Design Optimization
+- Multi-objective optimization (structural, cost, environmental)
+- Constraint satisfaction (drift limits, stress limits)
+- Generative design workflows
+- Design space exploration
+
+### Structural Analysis
+- Parametric sensitivity studies
+- Performance-based seismic design
+- Comparative analysis across ground motions
+- Influence of architectural forms on structural behavior
+
+## Data Quality Notes
+
+- All structural analyses performed with linear elastic assumptions
+- Maximum values extracted from time-history responses
+- Ground motions scaled according to standard procedures
+- Geometric parameters cover a wide but practical design space
+
+## Related Documentation
+
+- [METHODOLOGY.md](METHODOLOGY.md) - Detailed methodology
+- [README.md](../README.md) - Repository overview
+- Main paper - Complete research context and findings
+
+## Citation
+
+When using this dataset, please cite the associated research paper. See [CITATION.cff](../CITATION.cff) for citation details.
 | Total costs/TGA | Cost normalized by area | $/m² |
 | Sellable price | Market value estimate | $ |
 

@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Tall buildings with outer diagrids design exploration: influence of architectural forms on the structural behaviour in the early-stage design"
+authors:
+  - family-names: Kazemi
+    given-names: Pooyan
+    email: seyedpooyan.kazemi@polimi.it
+    affiliation: "Department of Civil and Environmental Engineering, Politecnico di Milano"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Entezami
+    given-names: Alireza
+    email: alireza.entezami@polimi.it
+    affiliation: "Department of Civil and Environmental Engineering, Politecnico di Milano"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Turrin
+    given-names: Michela
+    affiliation: "Department of Civil and Environmental Engineering, Politecnico di Milano"
+  - family-names: Andriotis
+    given-names: Charalampos
+    affiliation: "Department of Civil and Environmental Engineering, Politecnico di Milano"
+  - family-names: Mariani
+    given-names: Stefano
+    email: stefano.mariani@polimi.it
+    affiliation: "Department of Civil and Environmental Engineering, Politecnico di Milano"
+  - family-names: Ghisi
+    given-names: Aldo
+    email: aldo.ghisi@polimi.it
+    affiliation: "Department of Civil and Environmental Engineering, Politecnico di Milano"
+keywords:
+  - "AI in Building Design"
+  - "High-rise Buildings"
+  - "Outer Diagrids"
+  - "Parametric Design"
+  - "Structural Analysis"
+  - "Seismic Response"
+  - "Early-stage Design"
+  - "Tall Buildings"
+  - "Generative Design"
+license: MIT
+repository-code: "https://github.com/pkazemis-a11y/Tall-buildings-with-outer-diagrids-design-exploration"
+abstract: "Tall buildings with outer diagrids stimulate the ingenuity and creativity of architects and designers thanks to the possibility of reducing the dimensions of interior cores and freeing up internal space for alternative uses. However, the interplay between structure and architectural form is often not immediately apparent in the early stages of design, particularly with regard to the level of detail required to inform quantitative decisions. In this study, a database comprising 1000 artificial tall buildings has been generated using parametric modelling. These buildings have been then subjected to seven ground motion signals taken from the NGA-West2 database, and a substantial amount of data has been collected in terms of geometric, structural, and environmental variables. This data has been organised in a way that will support subsequent investigations using artificial intelligence algorithms. In this paper, the data is described according to specific input and output variables, demonstrating the extent to which the database has been expanded with respect to the design space. The data is accessible in a repository for the architecture, engineering and construction community."
+date-released: 2025-01-19
+version: "1.0.0"
+# doi: 10.XXXX/journal.XXXX  # Uncomment and update when DOI is available
